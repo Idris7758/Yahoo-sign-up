@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    font-family: helvetica neu,arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.025);
+}
+.center{
+    /* margin: auto; */
+    text-align: center;
+    /* vertical-align: middle; */
+    align-items: center; 
+}
+.small{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.h2{
+    font-weight: bold;
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #188fff;
+}
+a:hover, a:focus{
+    color:#0c61a1;
+}
+.helpTxt{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+.yahoo_logo{
+    width: 120px;
+    height: 36px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.head_part{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 15%;
+    width: 100%;
+    position: relative;
+}
+.form{
+    margin: auto;
+    margin-top: 2%;
+    padding: 15px;
+    width: 350px;
+    height: 500px;
+    line-height: 15px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px rgba(212, 212, 212, 0.5),
+                -2px -2px 3px rgba(212, 212, 212, 0.5);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.names{
+    width: 100%;
+    display: inline-flex;
+}
+.names .in_width{
+    width: 40%;
+}
+.in_width{
+    outline: none;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid rgba(192, 189, 189, 0.973);
+    height: 32px;
+    font-size: 17px;
+    font-weight: ;
+    color: rgb(80, 80, 80);
+}
+.in_width:focus{
+    border-bottom:2px solid #188fff;
+}
+.input_other{
+    width: 84%;
+}
+.btn{
+    margin: auto;
+    outline: none;
+    border: none;
+    color:rgba(255, 255, 255, 1);
+    background-color: #188fff;
+    height: 40px;
+    width: 80%;
+    font-size: 16px;
+    border-radius:25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;        
+    }
+.btn:hover{
+    background-color: #125be4;
+}
+
+@media (prefers-color-scheme: dark){
+
+*{
+background-color:grey;
+color:white;
+}
+input::placeholder{
+color:white;
+}
+}
